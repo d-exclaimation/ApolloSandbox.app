@@ -1,6 +1,7 @@
 # Apollo Sandbox App
 
 > **Note**
+>
 > This is not the official Apollo Sandbox App, this is just a electron wrapper 
 > around the Embeddable Apollo Explorer (https://github.com/apollographql/embeddable-explorer)
 
