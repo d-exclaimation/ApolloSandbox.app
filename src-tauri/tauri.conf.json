@@ -7,7 +7,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "ApolloSandbox.app",
+    "productName": "ApolloSandbox",
     "version": "0.1.0"
   },
   "tauri": {
