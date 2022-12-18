@@ -4,13 +4,14 @@
     
     <script src="https://embeddable-sandbox.cdn.apollographql.com/_latest/embeddable-sandbox.umd.production.min.js"></script>
     <script>
-    // new window.EmbeddedSandbox({
-    //     target: "#sandbox"
-    // });
+    new window.EmbeddedSandbox({
+        target: "#sandbox"
+    });
 
     const { invoke } = window.__TAURI__.tauri;
 
-    invoke("ok")
-       .then(response => console.log(response));
+    invoke("something")
+       .then(({message}) => console.log(message))
+       .catch(error => console.error(error));
     </script>
 </html>

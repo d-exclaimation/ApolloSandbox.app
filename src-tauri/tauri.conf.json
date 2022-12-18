@@ -29,8 +29,8 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
-      "longDescription": "",
+      "identifier": "",
+      "longDescription": "Apollo Sandbox on desktop",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -39,7 +39,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "",
+      "shortDescription": "ApolloSandbox.app",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
